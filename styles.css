@@ -23,9 +23,9 @@
 #wrap {
     width: 95%;
     max-width: 1200px;
-    min-height: 600px;
+    min-height: 550px;
     height: auto;
-    background: linear-gradient(to right, #d4d6f1,#7578ee,#d4d6f1);
+    background: linear-gradient(to top  , #ef3993,#d85562);
     box-shadow: 20px 20px 30px #4e3b24;
     background-position: center;
     background-size: cover;
