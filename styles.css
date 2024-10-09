@@ -1,5 +1,8 @@
 /* FONTS */
-
+@font-face {
+    font-family: nike;
+    src: url(./fonts/Futura\ Bold/);
+}
 
 
 /* GENERALES */
@@ -25,14 +28,45 @@
     max-width: 1200px;
     min-height: 550px;
     height: auto;
-    background: linear-gradient(to top  , #ef3993,#d85562);
+    background: linear-gradient(to top,#e75870, #ef3993,#e92e9e);
     box-shadow: 20px 20px 30px #4e3b24;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
 
+   /*  display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header #logo{
+    flex-basis: 20%;
+}
+
+header #medio{
+    flex-basis: 60%;
+}
+
+header #menu{
+    flex-basis: 20%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top: 20px;
+    color: white;
+}
+
+header #menu span{
+    font-size: 40px;
+}
+
+header #logo img{
+    width: 110px;
+    padding-left: 112px;
 }
