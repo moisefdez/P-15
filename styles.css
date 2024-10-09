@@ -55,7 +55,7 @@ header #medio{
 }
 
 header #menu{
-    flex-basis: 20%;
+    flex-basis: 15%;
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -69,4 +69,73 @@ header #menu span{
 header #logo img{
     width: 110px;
     padding-left: 112px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main #img{
+    z-index: 1;
+}
+
+main #img img{
+    width: 565px;
+   
+}
+
+main #text{
+    font-size: 228px;
+    position: absolute;
+    z-index: 0;
+    padding-top: 120px;
+    color: #00000024;
+    font-family: arial;
+    font-weight: 800;
+}
+
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: -30px;
+}
+#info h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+#all{
+    flex-basis: 70%;
+    z-index: 1;
+}
+
+#all p{
+    width: 80%;
+    color: #ffffffbf;
+}
+
+#all button{
+    width: 132px;
+    height: 34px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.button{
+    width: 132px;
+    height: 34px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#icons{
+    flex-basis: 30%;
 }
