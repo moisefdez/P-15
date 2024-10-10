@@ -82,6 +82,7 @@ main {
 
 main #img {
     z-index: 1;
+    animation: movimiento 1.5s infinite alternate;
 }
 
 main #img img {
@@ -153,6 +154,18 @@ main #text {
 #icons div:last-child {
     margin-bottom: 20px;
 }
+
+@keyframes movimiento {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px); 
+    }
+}
+
+
+/* Responsible */
 
 @media (max-width:1039px) {
     main #text {
